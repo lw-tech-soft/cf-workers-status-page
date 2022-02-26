@@ -30,3 +30,10 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+    
+  - id: moegirl
+    name: 萌娘百科
+    url: 'https://zh.moegirl.org.cn/Mainpage'
+    method: GET
+    expectStatus: 200
+    linkable: true
