@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://monitor.076111.xyz' # used for Slack messages
+  url: 'https://monitor.lwtech.tk' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: false # collects avg response times from CRON locations
