@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: github-page # unique identifier
     name: Github Page
-    url: 'https://page.076111.xyz/' # URL to fetch
+    url: 'http://page.076111.xyz/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -26,7 +26,7 @@ monitors:
   - id: dmhy
     name: 动漫花园
     # description: 'Built for anything connected to the Internet.' # default=empty
-    url: 'https://www.dmhy.com'
+    url: 'https://www.dmhy.org'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
