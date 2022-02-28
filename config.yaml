@@ -23,6 +23,14 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: website
+    name: 网站
+    url: 'http://076111.xyz'
+    description: 'Oracle'
+    method: GET
+    expectStatus: 200
+    linkable: true
+
   - id: dmhy
     name: 动漫花园
     # description: 'Built for anything connected to the Internet.' # default=empty
