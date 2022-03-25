@@ -30,6 +30,13 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true
+    
+  - id: bt-tracker
+    name: Tracker
+    url: 'https://tracker.feb217.tk:8443/about/index.html'
+    method: GET
+    expectStatus: 200
+    linkable: false
 
   - id: dmhy
     name: 动漫花园
