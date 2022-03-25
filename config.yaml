@@ -33,7 +33,7 @@ monitors:
     
   - id: bt-tracker
     name: Tracker
-    url: 'https://web.feb217.tk:8443'
+    url: 'https://web.feb217.tk'
     method: GET
     expectStatus: 200
     linkable: false
