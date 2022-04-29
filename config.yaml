@@ -52,3 +52,10 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true
+
+  - id: ddy
+    name: BiliRoming
+    url: 'https://ddy0555438881.hk2.geng.ga/bili/hello.php'
+    method: GET
+    expectStatus: 200
+    linkable: false
